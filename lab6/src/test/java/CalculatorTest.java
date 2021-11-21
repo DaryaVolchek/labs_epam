@@ -2,7 +2,7 @@ import dataProvider.DataProviderJava;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class CalculatorTests {
+public class CalculatorTest {
     @Test(dataProvider = "additionDataProvider", dataProviderClass = DataProviderJava.class)
     public void validValuesForAddition(int firstNumber, int secondNumber, int expectedNumber){
         Assert.assertEquals(Calculator.addition(firstNumber, secondNumber), expectedNumber);
