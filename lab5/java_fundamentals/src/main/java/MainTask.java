@@ -24,10 +24,10 @@ public class MainTask {
             System.out.println(randomNumber);
         }
 
-        System.out.print("\nВведите первое число: ");
-        int firstNumber = inputStream.nextInt();
-        System.out.print("Введите второе число: ");
-        int secondNumber = inputStream.nextInt();
+        int firstNumber = Integer.parseInt(args[1]);
+        int secondNumber = Integer.parseInt(args[4]);
+
+        System.out.println("\nВыводим сумму и произведение 2 и 5 аргументов:");
         System.out.println("Сумма = " + (firstNumber + secondNumber));
         System.out.println("Произведение = " + firstNumber * secondNumber);
 
