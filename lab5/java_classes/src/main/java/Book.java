@@ -86,19 +86,6 @@ public class Book {
         this.bindingType = bindingType;
     }
 
-//    @Override
-//    public String toString() {
-//        return "Book{" +
-//                "id=" + id +
-//                ", Название='" + title + '\'' +
-//                ", Автор='" + author + '\'' +
-//                ", Издательство='" + publisher + '\'' +
-//                ", Год издания=" + publishingYear +
-//                ", Колчество страниц=" + numberOfPages +
-//                ", Цена=" + price + " р." +
-//                ", Тип переплета='" + bindingType + '\'' +
-//                '}';
-//    }
 @Override
 public String toString() {
     return "'" + title + "' " + author;
